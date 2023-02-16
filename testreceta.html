@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ITB Company - Recetas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        main h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        main img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        main h2 {
+            font-size: 24px;
+            margin: 20px 0 10px;
+        }
+
+        main ul,
+        main ol {
+            margin: 10px 0 20px;
+            padding: 0 0 0 40px;
+        }
+
+        main ol {
+            counter-reset: step;
+        }
+
+        main ol li {
+            list-style: none;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        main ol li:before {
+            content: counter(step);
+            counter-increment: step;
+            position: absolute;
+            left: -30px;
+            top: 0;
+            background-color: #ff8800;
+            color: #fff;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            color: #999;
+        }
+
+        footer a {
+            color: #999;
+        }
+
+        .print-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #ff8800;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .print-button:hover {
+            background-color: #e77c00;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ITB Company - Recetas</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Recetas</a></li>
+                <li><a href="#">Lista de Recetas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Receta</h1>
+        <img src="imagen_de_la_receta.jpg" alt="Imagen de la receta">
+        <h2>Ingredientes:</h2>
+        <ul>
+            <li>Ingrediente 1</li>
+            <li>Ingrediente 2</li>
+            <li>Ingrediente 3</li>
+        </ul>
+        <h2>Preparación:</h2>
+        <ol>
+            <li>Paso 1</li>
+            <li>Paso 2</li>
+            <li>Paso 3</li>
+        </ol>
+    </main>
+    <footer>
+        <p>&copy; ITB Company 2022</p>
+    </footer>
+</body>
+
+</html>
