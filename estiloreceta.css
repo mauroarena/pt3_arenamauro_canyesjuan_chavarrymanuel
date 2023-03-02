@@ -61,8 +61,7 @@
   
   nav a:hover {
     background-color: #ddd;
-  }
-  
+  }  
   /* Main content styles */
   main {
     background-color: #fff;
@@ -176,28 +175,78 @@
     margin-bottom: 0.5rem;
     color: #777;
   }
-        footer {
-          display: flex;
-          justify-content: center;
-          height: 50px;
-          background-color: black;
-        }
+footer {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: black;
+  }
   
-        footer a {
-          margin: 0 20px;
-          text-decoration: none;
-          color: white;
-        }
-        .entry-meta p {
-          display: inline-block;
-          margin-right: 1rem;
-          margin-bottom: 0;
-          background-color: #e3e3e3;
-          color: #333;
-          padding: 0.5rem 1rem;
-          border-radius: 0.5rem;
-        }
-        .entry-meta {
-          font-size: 1.2rem;
-          margin-top: 2rem;
-               }
+footer a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  }
+  .entry-meta p {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .entry-meta {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+/*Stars*/
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.rating h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label:hover,
+label:hover ~ label,
+input[type="radio"]:checked ~ label {
+  color: #ffcc00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
