@@ -3,237 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <title>Delicias Kitchen-Receta</title>
-  <style>
-    header{
-      text-align: center;
-    }
-    header img {
-      display: block;
-      margin: 0 auto;
-      background-color: white;
-      }
-    nav {
-      display: flex;
-      justify-content: center;
-      height: 40px;
-      background-color: white;
-      }
-    nav a {
-      margin: 0 20px;
-      text-decoration: none;
-      color: black;
-      }
-
-    nav a:hover {
-      color: green;
-      }
-      body {
-      
-        margin: 0;
-        padding: 0;
-      }
-      h1 {
-        margin: 0;
-      }
-      main {
-        margin-right :300px;
-        background-color: rgb(148,125,88);
-        padding: 100px ; 
-        margin-left: 300px;
-        margin-top: 100px;   
-      }
-      h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 2rem;
-}
-      p {
-        font-size: 18px;
-        line-height: 1.5;
-        margin-bottom: 20px;
-      }
-      img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  height: auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-      footer {
-        display: flex;
-        justify-content: center;
-        height: 50px;
-        background-color: black;
-      }
-
-      footer a {
-        margin: 0 20px;
-        text-decoration: none;
-        color: white;
-      }
-      .receta {
-        background-color:green ;
-        margin: 10px;
-      }
-      .comentaris {
-  background-color: #E5F5E5;
-  padding: 200px;
-  margin-top: 30px;
-  border-radius: 5px;
-}
-
-.comentaris h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.comentaris label {
-  display: block;
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.comentaris input[type="text"],
-.comentaris input[type="email"],
-.comentaris textarea {
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-  border-radius: 3px;
-  border: 1px solid #ccc;
-  font-size: 14px;
-}
-
-.comentaris textarea {
-  height: 50px;
-}
-
-.comentaris button[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.3s ease;
-}
-
-.comentaris button[type="submit"]:hover {
-  background-color: rgb(148,125,88);
-}
-.entry-meta p {
-  display: inline-block;
-  margin-right: 1rem;
-  margin-bottom: 0;
-  background-color: #e3e3e3;
-  color: #333;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-}
-.entry-meta {
-  font-size: 1.2rem;
-  margin-top: 2rem;
-}
-ul {
-  font-size: 1.2rem;
-  list-style: disc;
-  margin-left: 2rem;
-}
-
-ol {
-  font-size: 1.2rem;
-  list-style: decimal;
-  margin-left: 2rem;
-}
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="imatges/Logo-Delicias.png" alt="Logo">
-  </header>
-  <hr>
-  <nav>
-    <ul style="display: flex; justify-content: center;">
-      <li><a href="http://127.0.0.1:5500/pt3_arenamauro_canyesjuan_chavarrymanuel/index.html">Inicio</a></li>
-      <li><a href="http://127.0.0.1:5500/pt3_arenamauro_canyesjuan_chavarrymanuel/receta.html">Recetas</a></li>
-      <li><a href="http://127.0.0.1:5500/pt3_arenamauro_canyesjuan_chavarrymanuel/contacto.html">Contacto</a></li>
-      <li><a href="">Otras Cosas</a></li>
-    </ul>
-  </nav>
-  <hr>
-  <main id="Receta">
-    <h2>Pasta con salsa de coliflor y pimienta de Jamaica</h2>
-    <p>Ingredientes:</p>
-    <ul>
-      <li>500 gramos de carne picada</li>
-      <li>1 cebolla</li>
-      <li>2 dientes de ajo</li>
-      <li>1 pimiento verde</li>
-      <li>1 lata de tomate triturado</li>
-      <li>12 placas de lasaña</li>
-      <li>200 gramos de queso rallado</li>
-      <li>Aceite de oliva</li>
-      <li>Sal y pimienta</li>
-    </ul>
-    <p>Preparación:</p>
-    <ol>
-      <li>Pelar y picar la cebolla y los ajos.</li>
-      <li>Lavar y picar el pimiento verde.</li>
-      <li>Poner una sartén al fuego con un poco de aceite de oliva y añadir la cebolla, los ajos y el pimiento. Sofreír hasta que estén dorados.</li>
-      <li>Añadir la carne picada y cocinar hasta que esté dorada.</li>
-      <li>Añadir la lata de tomate triturado, salpimentar al gusto y dejar cocinar durante unos minutos.</li>
-      <li>Cocer las placas de lasaña en agua con sal durante 10 minutos.</li>
-      <li>En una bandeja de horno, colocar una capa de placas de lasaña, cubrir con una capa de la mezcla de carne y queso rallado. Repetir hasta acabar con todos los ingredientes, finalizando con una capa de queso rallado.</li>
-      <li>Hornear durante 20-25 minutos a 180°C.</li>
-    </ol>
-    <img src="imatges/Pasta.jpg" alt="Pasta">
-    <div class="entry-meta">
-      <p>Varios, verduras!</p>
-      <p>arroz, blog, calabaza, curcuma, facil, mediolimon, receta, risoto, rissoto, sano, vegan, vegano</p>
-      <p>12 bocadillos 100% vegetales</p>
-      <p>Galletas de calabaza</p>
-    </div>
-  </main>
-  <section class="comentaris">
-    <h2>Deixa'ns el</head>
-      <body>
-        <header>
-          <img src="imatges/Logo-Delicias.png" alt="Logo">
-        </header>
-        <hr>
-      …    </div>
-        </main> teu comentari</h2>
+<header>
+  <img src="imatges/Logo-Delicias.png" alt="Logo">
+</header>
+<hr>
+<nav>
+  <ul style="display: flex; justify-content: center;">
+    <li><a href="http://127.0.0.1:5500/pt3_arenamauro_canyesjuan_chavarrymanuel/index.html">Inicio</a></li>
+    <li><a href="http://127.0.0.1:5500/pt3_arenamauro_canyesjuan_chavarrymanuel/receta.html">Recetas</a></li>
+    <li><a href="http://127.0.0.1:5500/pt3_arenamauro_canyesjuan_chavarrymanuel/contacto.html">Contacto</a></li>
+    <li><a href="">Otras Cosas</a></li>
+  </ul>
+</nav>
+<hr>
+<main id="Receta">
+  <h2>Pasta con salsa de coliflor y pimienta de Jamaica</h2>
+  <p>Ingredientes:</p>
+  <ul>
+    <li>500 gramos de carne picada</li>
+    <li>1 cebolla</li>
+    <li>2 dientes de ajo</li>
+    <li>1 pimiento verde</li>
+    <li>1 lata de tomate triturado</li>
+    <li>12 placas de lasaña</li>
+    <li>200 gramos de queso rallado</li>
+    <li>Aceite de oliva</li>
+    <li>Sal y pimienta</li>
+  </ul>
+  <p>Preparación:</p>
+  <ol>
+    <li>Pelar y picar la cebolla y los ajos.</li>
+    <li>Lavar y picar el pimiento verde.</li>
+    <li>Poner una sartén al fuego con un poco de aceite de oliva y añadir la cebolla, los ajos y el pimiento. Sofreír hasta que estén dorados.</li>
+    <li>Añadir la carne picada y cocinar hasta que esté dorada.</li>
+    <li>Añadir la lata de tomate triturado, salpimentar al gusto y dejar cocinar durante unos minutos.</li>
+    <li>Cocer las placas de lasaña en agua con sal durante 10 minutos.</li>
+    <li>En una bandeja de horno, colocar una capa de placas de lasaña, cubrir con una capa de la mezcla de carne y queso rallado. Repetir hasta acabar con todos los ingredientes, finalizando con una capa de queso rallado.</li>
+    <li>Hornear durante 20-25 minutos a 180°C.</li>
+  </ol>
+  <img src="imatges/Pasta.jpg" alt="Pasta">
+  <div class="entry-meta">
+    <p>Varios, verduras!</p>
+    <p>arroz, blog, calabaza, curcuma, facil, mediolimon, receta, risoto, rissoto, sano, vegan, vegano</p>
+    <p>12 bocadillos 100% vegetales</p>
+    <p>Galletas de calabaza</p>
+  </div>
+</main>
+<section class="comments">
+    <h2>Deja tu comentario</h2>
     <form>
-      <label for="nom">Nom:</label>
-      <input type="text" id="nom" name="nom" required>
-  
-      <label for="email">Correu electrònic:</label>
-      <input type="email" id="email" name="email" required>
-  
-      <label for="comentari">Comentari:</label>
-      <textarea id="comentari" name="comentari" required></textarea>
-  
-      <button type="submit">Enviar</button>
+      <div>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="comment">Comentario:</label>
+        <textarea id="comment" name="comment" required></textarea>
+      </div>
+      <button type="submit">Enviar comentario</button>
     </form>
+    <div class="entry-meta">
+      <p>Comentarios (3)</p>
+      <p>Fecha de publicación: 02/03/2023</p>
+    </div>
+    <div class="comment">
+      <h3>Javier Amaya</h3>
+      <p class="comment-date">01/03/2023</p>
+      <p>Vaya usuario el que ha creado esto</p>
+    </div>
+    <div class="comment">
+      <h3>Jordi Casas</h3>
+      <p class="comment-date">28/02/2023</p>
+      <p>Nullam auctor ante vel mi suscipit blandit. Nullam sit amet leo pharetra, maximus magna et, lobortis velit. Donec eu purus id quam dictum euismod.</p>
+    </div>
+    <div class="comment">
+      <h3>Joan Colomer</h3>
+      <p class="comment-date">26/02/2023</p>
+      <p>Mauris suscipit tristique eros eget fringilla. Sed a ligula vitae est ultricies laoreet. Nam iaculis consectetur mauris vitae lacinia.</p>
+    </div>
   </section>
-  <row style="width: 100%; display: inline-block;">
-    <footer>
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
-        <a href="#">Pinterest</a>
-        <a href="#">Email</a>
-        <a href="#">RSS</a>
-    </footer>
-  </row>
+<row style="width: 100%; display: inline-block;">
+  <footer>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+      <a href="#">Email</a>
+      <a href="#">RSS</a>
+  </footer>
+</row>
 </body>
 </html>
-
-
-  
