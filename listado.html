@@ -1,29 +1,391 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ITB Company - Listado de Recetas</title>
+    <title>Delicias Kitchen-Listado de Recetas</title>
+    <style>
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+  }
+  
+  header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }  
+  footer {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: black;
+  }
+  
+footer a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  }
+
+/* Estilo para la sección main */
+main {
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+/* Estilo para el título de la sección */
+main h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Estilo para la lista de recetas */
+main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para cada elemento de la lista */
+main li {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Estilo para el título de cada receta */
+main li h3 {
+  color: #1d3557;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Estilo para la descripción de cada receta */
+main li p {
+  color: #4a4a4a;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+main li img {
+  /* otros estilos existentes */
+  max-width: 50%;
+  height: auto;
+  margin-right: 20px;
+}
+
+
+.recetalink {
+  text-decoration: none;
+  color: #1d3557;
+  font-weight: bold;
+}
+
+.recetalink:hover {
+  background-color: #1d3557;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.recetalink:focus {
+  outline: none;
+}
+
+.recetalink:active {
+  transform: translateY(1px);
+}
+
+
+/* Estilo para la sección de información */
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Estilo para el valor de dificultad */
+.difficulty {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background-color: #ffc107;
+  color: #fff;
+}
+
+/* Estilo para el valor de procedencia */
+.origin {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Estilo para los valores de dificultad y procedencia en los elementos p */
+.info p span {
+  font-weight: bold;
+}
+</style>
   </head>
   <body>
-    <header>
-      <h1 style="text-align: center; font-size: 36px;">En Construcción</h1>
-    </header>
-    <header>
-      <h1>ITB Company - Listado de Recetas</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Recetas</a></li>
-        <li><a href="#">Lista de Recetas</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-    <main>
-      <h2>Listado de Recetas</h2>
-      <p>En construcción</p>
-    </main>
-    <footer>
-      <p>&copy; ITB Company 2023</p>
-    </footer>
-  </body>
+<header>
+  <img src="/imatges/Logo-Delicias.png" alt="Logo">
+</header>
+<hr>
+<nav>
+  <ul style="display: flex; justify-content: center;">
+    <li><a href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/index.html">Inicio</a></li>
+    <li><a href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/listado.html">Recetas</a></li>
+    <li><a href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/contacto.html">Contacto</a></li>
+    <li><a href="">Otras Cosas</a></li>
+  </ul>
+</nav>
+<hr>
+<main>
+  <h2>Recetas disponibles</h2>
+  <ul>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Galleta%20de%20avena.html"> Galleta de avena </a></h3>
+      <img src="/imatges/galletas.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Gazpacho.html"> Gazpacho </a></h3>
+      <img src="/imatges/gazpacho.jpg">
+      <p>Una breve explicación de la receta 2.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main> 
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Pulpo%20a%20la%20Gallega.html"> Pulpo a la Gallega </a></h3>
+      <img src="/imatges/pulpo a la gallega.jpg">
+      <p>Una breve explicación de la receta 3.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Baja</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main> 
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Paella%20Valenciana.html"> Paella Valenciana </a></h3>
+      <img src="/imatges/PaellaValenciana.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Trucha%20Navarra.html"> Trucha Navarra </a></h3>
+      <img src="/imatges/trucha-navarra.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Mijo%20cremosa.html"> Mijo Cremosa </a></h3>
+      <img src="/imatges/mijo.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Torreznos.html"> Torreznos </a></h3>
+      <img src="/imatges/Torreznos.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Alta</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Pasta%20con%20salsa%20de%20coliflor.html"> Pasta con salsa de coliflor </a></h3>
+      <img src="/imatges/Pasta.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Calabacines%20rellenos.html"> Calabacines rellenos </a></h3>
+      <img src="/imatges/calabacines.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Conejo%20salmorejo.html"> Conejo Salmorejo </a></h3>
+      <img src="/imatges/conejo-salmorejo.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Crema%20Catalana.html"> Crema Catalana </a></h3>
+      <img src="/imatges/crema catalana.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Escalivada.html"> Escalivada </a></h3>
+      <img src="/imatges/escalivada.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Media</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Fabada%20Asturiana.html"> Fabada Asturiana </a></h3>
+      <img src="/imatges/Fabada Asturiana.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Alta</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+    <li>
+      <h3><a class="recetalink" href="https://mchavarri-fuzzy-zebra-7qxq5p66xvrhw6q-5500.preview.app.github.dev/Recetas/Trucha%20Navarra.html"> Trucha Navarra </a></h3>
+      <img src="/imatges/trucha-navarra.jpg">
+      <p>Una breve explicación de la receta 1.</p>
+      <main>
+        <article>
+          <div class="info">
+            <p>Dificultad: <span class="difficulty">Baja</span></p>
+            <p>Procedencia: <span class="origin">España</span></p>
+          </div>
+        </article>
+      </main>      
+    </li>
+  </ul>
+</main>
+<row style="width: 100%; display: inline-block;">
+  <footer>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+      <a href="#">Email</a>
+      <a href="#">RSS</a>
+  </footer>
+</row>
+</body>
 </html>
