@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ITB Company - Contacto</title>
+    <title>Delicias Kitchen - Contacto</title>
+    <style>
+      header {
+        text-align: center;
+      }
+
+      header img {
+        display: block;
+        margin: 0 auto;
+        background-color: white;
+        
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        background-color: white;
+      }
+
+      nav a {
+        margin: 0 20px;
+        text-decoration: none;
+        color: black;
+      }
+
+      nav a:hover {
+        color: green;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1 style="text-align: center; font-size: 36px;">En Construcción</h1>
+      <img src="imatges/Logo-Delicias.png" alt="Logo">
     </header>
-    <header>
-      <h1>ITB Company - Contacto</h1>
-    </header>
+    <hr>
     <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Recetas</a></li>
-        <li><a href="#">Lista de Recetas</a></li>
-        <li><a href="#">Contacto</a></li>
+      <ul style="display: flex; justify-content: center;">
+        <li><a href="http://127.0.0.1:5500/pt3_arenamauro_canyesjuan_chavarrymanuel/index.html">Inicio</a></li>
+        <li><a href="http://127.0.0.1:5500/pt3_arenamauro_canyesjuan_chavarrymanuel/receta.html">Recetas</a></li>
+        <li><a href="http://127.0.0.1:5500/pt3_arenamauro_canyesjuan_chavarrymanuel/contacto.html">Contacto</a></li>
+        <li><a href="">Otras Cosas</a></li>
       </ul>
     </nav>
+    <hr>
     <main>
       <form action="enviar_mensaje.php" method="post">
         <label for="nombre">Nombre:</label>
