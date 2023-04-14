@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receptes.xslt" ?>
+<recipes>
+  <recipe>
+    <name>Galleta de avena</name>
+    <url>../Recetas/Galleta%20de%20avena.html</url>
+    <image>../imatges/galletas.jpg</image>
+    <description>Una breve explicación de la receta 1.</description>
+    <difficulty>Media</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Gazpacho</name>
+    <url>../Recetas/Gazpacho.html</url>
+    <image>../imatges/gazpacho.jpg</image>
+    <description>Una breve explicación de la receta 2.</description>
+    <difficulty>Media</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Gazpacho</name>
+    <url>../Recetas/Gazpacho.html</url>
+    <image>../imatges/gazpacho.jpg</image>
+    <description>Una breve explicación de la receta 2.</description>
+    <difficulty>Media</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <!-- Añade el resto de las recetas aquí -->
+</recipes>
