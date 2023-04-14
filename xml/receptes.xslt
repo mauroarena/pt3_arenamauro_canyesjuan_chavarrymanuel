@@ -9,14 +9,37 @@
         <link rel="stylesheet" href="../css/stylelistarecetas.css"/>
       </head>
       <body>
-        <!-- El contenido de tu archivo HTML original va aquí -->
+        <header>
+          <img src="../imatges/Logo-Delicias.png" alt="Logo"/>
+        </header>
+        <hr/>
+        <nav>
+          <ul style="display: flex; justify-content: center;">
+            <li><a href="../Web/inicio.html">Inicio</a></li>
+            <li><a href="../xml/receptes.xml">Recetas</a></li>
+            <li><a href="../Web/contacto.html">Contacto</a></li>
+            <li><a href="">Otras Cosas</a></li>
+          </ul>
+        </nav>
+        <hr/>
+        <!---->
         <main>
           <h2>Recetas disponibles</h2>
           <ul>
             <xsl:apply-templates select="recipes/recipe"/>
           </ul>
         </main>
-        <!-- El resto del contenido de tu archivo HTML original va aquí -->
+        <row style="width: 100%; display: inline-block;">
+          <footer>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+            <a href="#">Email</a>
+            <a href="#">RSS</a>
+          </footer>
+        </row>       
+        <!----> 
       </body>
     </html>
   </xsl:template>
