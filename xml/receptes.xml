@@ -10,20 +10,248 @@
     <origin>España</origin>
   </recipe>
   <recipe>
-    <name>Gazpacho</name>
-    <url>../Recetas/Gazpacho.html</url>
-    <image>../imatges/gazpacho.jpg</image>
-    <description>Una breve explicación de la receta 2.</description>
+    <name>Calabacines rellenos</name>
+    <url>../Recetas/Calabacines%20rellenos.html</url>
+    <image>../imatges/calabacines.jpg</image>
+    <description>Una breve explicación de la receta de calabacines rellenos.</description>
     <difficulty>Media</difficulty>
     <origin>España</origin>
   </recipe>
   <recipe>
+    <name>Conejo salmorejo</name>
+    <url>../Recetas/Conejo%20salmorejo.html</url>
+    <image>../imatges/conejo-salmorejo.jpg</image>
+    <description>Una breve explicación de la receta de conejo salmorejo.</description>
+    <difficulty>Alta</difficulty>
+    <origin>España</origin>
+  </recipe>
+    <recipe>
+    <name>Crema catalana </name>
+    <url>../Recetas/Crema%Catalana.html</url>
+    <image>../imatges/crema catalana.jpg</image>
+    <description>Una breve explicación de la receta de conejo salmorejo.</description>
+    <difficulty>Alta</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Ensalada César</name>
+    <url>../Recetas/Ensalada cesar.html</url>
+    <image>../imatges/EnsaladaCesar.jpg</image>
+    <description>Una breve explicación de la receta de ensalada César.</description>
+    <difficulty>Baja</difficulty>
+    <origin>Estados Unidos</origin>
+  </recipe>
+  <recipe>
+    <name>Escalivada</name>
+    <url>../Recetas/Escalivada.html</url>
+    <image>../imatges/escalivada.jpg</image>
+    <description>Una breve explicación de la receta de escalivada.</description>
+    <difficulty>Baja</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Espaguetis a la carbonara</name>
+    <url>../Recetas/espaguetis carbonara.html</url>
+    <image>../imatges/Espaguetis-Carbonara.jpg</image>
+    <description>Una breve explicación de la receta de espaguetis a la carbonara.</description>
+    <difficulty>Media</difficulty>
+    <origin>Italia</origin>
+  </recipe>
+  <recipe>
+    <name>Fabada Asturiana</name>
+    <url>../Recetas/Fabada Asturiana.html</url>
+    <image>../imatges/Fabada Asturiana.jpg</image>
+    <description>Una breve explicación de la receta de fabada asturiana.</description>
+    <difficulty>Alta</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Gazpacho Andaluz</name>
+    <url>../Recetas/gazpacho andaluz.html</url>
+    <image>../imatges/gazpacho-andaluz.jpg</image>
+    <description>Una breve explicación de la receta de gazpacho andaluz.</description>
+    <difficulty>Baja</difficulty>
+    <origin>España</origin>
+  </recipe><!-- hola-->
+  <recipe>
     <name>Gazpacho</name>
     <url>../Recetas/Gazpacho.html</url>
     <image>../imatges/gazpacho.jpg</image>
-    <description>Una breve explicación de la receta 2.</description>
+    <description>Una breve explicación de la receta de gazpacho.</description>
+    <difficulty>Baja</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Lentejas con chorizo</name>
+    <url>../Recetas/Lentejas%20con%20chorizo.html</url>
+    <image>../imatges/lentejas-con-chorizo.jpg</image>
+    <description>Una breve explicación de la receta de lentejas con chorizo.</description>
     <difficulty>Media</difficulty>
     <origin>España</origin>
   </recipe>
-  <!-- Añade el resto de las recetas aquí -->
+  <recipe>
+    <name>Mijo cremosa</name>
+    <url>../Recetas/Mijo%20cremosa.html</url>
+    <image>../imatges/mijo.jpg</image>
+    <description>Una breve explicación de la receta de mijo cremosa.</description>
+    <difficulty>Baja</difficulty>
+    <origin>India</origin>
+  </recipe>
+  <recipe>
+    <name>Paella Valenciana</name>
+    <url>../Recetas/Paella%20Valenciana.html</url>
+    <image>../imatges/PaellaValenciana.jpg</image>
+    <description>Una breve explicación de la receta de paella valenciana.</description>
+    <difficulty>Media</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Pasta con salsa de coliflor</name>
+    <url>../Recetas/Pasta%20con%20salsa%20de%20coliflor.html</url>
+    <image>../imatges/Pasta.jpg</image>
+    <description>Una breve explicación de la receta de pasta con salsa de coliflor.</description>
+    <difficulty>Media</difficulty>
+    <origin>Italia</origin>
+  </recipe>
+  <recipe>
+    <name>Pisto Manchego</name>
+    <url>../Recetas/Pisto%20Manchego.html</url>
+    <image>../imatges/pistomanchego.jpg</image>
+    <description>Una breve explicación de la receta de pisto manchego.</description>
+    <difficulty>Baja</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Pollo al curry</name>
+    <url>../Recetas/pollo curry.html</url>
+    <image>../imatges/pollo-al-curry.jpg</image>
+    <description>Una breve explicación de la receta de pisto manchego.</description>
+    <difficulty>Baja</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Pulpo a la Gallega</name>
+    <url>../Recetas/Pulpo%20a%20la%20Gallega.html</url>
+    <image>../imatges/pulpo a la gallega.jpg</image>
+    <description>Una breve explicación de la receta de pulpo a la gallega.</description>
+    <difficulty>Alta</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Tacos de pescado</name>
+    <url>../Recetas/Tacos%20de%20pescado.html</url>
+    <image>../imatges/tacos-pescado.jpg</image>
+    <description>Una breve explicación de la receta de tacos de pescado.</description>
+    <difficulty>Media</difficulty>
+    <origin>México</origin>
+  </recipe>
+  <recipe>
+    <name>Tacos vegetarianos</name>
+    <url>../Recetas/Tacos vegetarianos.html</url>
+    <image>../imatges/tacos vegetarianos.jpg</image>
+    <description>Una breve explicación de la receta de tacos vegetarianos.</description>
+    <difficulty>Baja</difficulty>
+    <origin>México</origin>
+  </recipe>
+  <recipe>
+    <name>Torreznos</name>
+    <url>../Recetas/Torreznos.html</url>
+    <image>../imatges/Torreznos.jpg</image>
+    <description>Una breve explicación de la receta de torreznos.</description>
+    <difficulty>Alta</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Trucha Navarra</name>
+    <url>../Recetas/Trucha%20Navarra.html</url>
+    <image>../imatges/trucha-navarra.jpg</image>
+    <description>Una breve explicación de la receta de trucha navarra.</description>
+    <difficulty>Media</difficulty>
+    <origin>España</origin>
+  </recipe>
+  <recipe>
+    <name>Chili vegano</name>
+    <url>../Recetas/chili-vegano.html</url>
+    <image>../imatges/chili-vegano.png</image>
+    <description>Una breve explicación de la receta de chili vegano.</description>
+    <difficulty>Baja</difficulty>
+    <origin>México</origin>
+  </recipe>
+  <recipe>
+    <name>Sopa de lentejas</name>
+    <url>../Recetas/Sopa%20de%20lentejas.html</url>
+    <image>../imatges/lentejas-con-chorizo.jpg</image>
+    <description>Una breve explicación de la receta de sopa de lentejas.</description>
+    <difficulty>Baja</difficulty>
+    <origin>Internacional</origin>
+  </recipe>
+  <recipe>
+    <name>Curry de garbanzos</name>
+    <url>../Recetas/curry garbanzos.html</url>
+    <image>../imatges/curry-de-garbanzos.jpg</image>
+    <description>Una breve explicación de la receta de sopa de lentejas.</description>
+    <difficulty>Baja</difficulty>
+    <origin>Internacional</origin>
+  </recipe>
+  <recipe>
+    <name>Quinoa con verduras asadas</name>
+    <url>../Recetas/Quinoa%20con%20verduras%20asadas.html</url>
+    <image>../imatges/quinoa-verduras-asadas.jpg</image>
+    <description>Una breve explicación de la receta de quinoa con verduras asadas.</description>
+    <difficulty>Media</difficulty>
+    <origin>Internacional</origin>
+  </recipe>
+  <recipe>
+    <name>Huevos revueltos con tostadas</name>
+    <url>../Recetas/Huevos%20revueltos%20con%20tostadas.html</url>
+    <image>../imatges/huevos-revueltos.jpg</image>
+    <description>Una breve explicación de la receta de huevos revueltos con tostadas.</description>
+    <difficulty>Baja</difficulty>
+    <origin>Internacional</origin>
+  </recipe>
+  <recipe>
+    <name>Ensalada de tomate y mozzarella</name>
+    <url>../Recetas/Ensalada%20de%20tomate%20y%20mozzarella.html</url>
+    <image>../imatges/ensalada-tomate-mozzarella.jpg</image>
+    <description>Una breve explicación de la receta de ensalada de tomate y mozzarella.</description>
+    <difficulty>Baja</difficulty>
+    <origin>Italia</origin>
+  </recipe>
+  <recipe>
+    <name>Tarta de manzana</name>
+    <url>../Recetas/Tarta%20de%20manzana.html</url>
+    <image>../imatges/tarta-manzana.jpg</image>
+    <description>Una breve explicación de la receta de tarta de manzana.</description>
+    <difficulty>Baja</difficulty>
+    <origin>Internacional</origin>
+  </recipe>
+  <recipe>
+    <name>Ensalada de Aguacate y Quinoa</name>
+    <url>../Recetas/Ensalada%20de%20Aguacate%20y%20Quinoa.html</url>
+    <image>../imatges/ensalada-quinoa-aguacate.jpg</image>
+    <description>Una breve explicación de la receta de ensalada de aguacate y quinoa.</description>
+    <difficulty>Baja</difficulty>
+    <origin>Internacional</origin>
+  </recipe>
+  <recipe>
+    <name>Ensalada de Garbanzos</name>
+    <url>../Recetas/Ensalada%20de%20Garbanzos.html</url>
+    <image>../imatges/ensalada-de-garbanzos.jpg</image>
+    <description>Una breve explicación de la receta de ensalada de garbanzos.</description>
+    <difficulty>Baja</difficulty>
+    <origin>Internacional</origin>
+  </recipe>
+  <recipe>
+    <name>Calabacines rellenos</name>
+    <url>../Recetas/calabacines.html</url>
+    <image>../imatges/calabacines.jpg</image>
+    <description>Una breve explicación de la receta de calabacines rellenos.</description>
+    <difficulty>Media</difficulty>
+    <origin>Internacional</origin>
+  </recipe>
 </recipes>
+
+
+
+
+
